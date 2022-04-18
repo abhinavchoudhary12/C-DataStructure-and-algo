@@ -7,9 +7,10 @@ struct lklist * next;
 }node;
 void main()
 {
-int n,data,pos;
-clrscr();
 node * head=NULL,*temp,*ptr;
+int n,data,pos,i=1,count=0,i1=1,count1=0;
+clrscr();
+
 
 
 
@@ -80,7 +81,7 @@ break;
 case 4:
 printf("enter the position\n");
 scanf("%d",&pos);
-int i=1,count=0;
+
 temp=head;
 while(temp!=NULL)
 {
@@ -165,7 +166,6 @@ break;
 case 8:
 printf("enter the position\n");
 scanf("%d",&pos);
-int i1=1,count1=0;
 temp=head;
 while(temp!=NULL)
 {
